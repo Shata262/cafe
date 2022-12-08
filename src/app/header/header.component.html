@@ -1,0 +1,24 @@
+
+
+
+<div>
+<nav  @myInsertRemoveTrigger *ngIf="isOpen">
+  <a  routerLink="/hom" routerLinkActive="activebutton"  @myInsertRemoveTrigger *ngIf="isOpen"  ariaCurrentWhenActive="page">HOME</a>
+
+<a  routerLink="/about" routerLinkActive="activebutton"  @myInsertRemoveTrigger *ngIf="isOpen"   ariaCurrentWhenActive="page">ABOUT</a>
+
+<a routerLink="/menu" routerLinkActive="activebutton"   @myInsertRemoveTrigger *ngIf="isOpen"    ariaCurrentWhenActive="page">MENU</a>
+
+  <a  routerLink="/where" routerLinkActive="activebutton"  @myInsertRemoveTrigger *ngIf="isOpen"          ariaCurrentWhenActive="page">WHERE</a>
+</nav>
+</div>
+<hr>
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+

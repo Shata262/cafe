@@ -1,0 +1,21 @@
+.bgimg {
+  background-image: url('../../assets/img/pexels-photo-1235706.webp');
+  min-height: 100%;
+  background-position: center center;
+  background-size: cover;
+  z-index: -1;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  margin-top: 20px;
+  opacity: .8;
+}
+a{
+  margin-bottom: 40px;
+  z-index: 2;
+  font-family:  serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+i {
+  margin-top: 10px;
+}
